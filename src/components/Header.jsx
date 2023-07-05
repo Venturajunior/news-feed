@@ -1,9 +1,10 @@
 import styles from './Header.module.css'
+import feedLogo from '../assets/feed-logo.svg'
 
 export function Header() {
   return (
     <header className={styles.header}>
-      <strong>Ignite feed</strong>
+      <img src={feedLogo} alt="News feed logo" />
     </header>
   )
 }
